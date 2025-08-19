@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 50px; 
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.navbar a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits color from parent */
+}
+
+.navbar a:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+    color: #646cff;
+}
+
+.logo {
+    height: Auto; 
+    width: 110px; 
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+.contact-button {
+    background-color: #646cff;
+    color: white;
+    padding: 7px 16px; 
+    margin-left: 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px; /* Slightly smaller for button */
+    font-weight: 600; /* Bold for button text */
+    text-align: center; /* Centered text */
+}
+
+ul {
+    list-style-type: none; /* Removes bullet signs */
+    display: flex; /* Displays items in a row */
+    flex-direction: row; /* Ensures horizontal layout */
+    gap: 20px; /* Optional: Adds space between items */
+    letter-spacing: 1px;
+}
