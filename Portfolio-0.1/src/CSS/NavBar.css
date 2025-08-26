@@ -29,8 +29,7 @@
 
 .logo {
     height: Auto; 
-    width: 110px; 
-    border-radius: 50%;
+    width: 110px;
     transition: transform 0.3s ease;
     flex-shrink: 0;
 }
